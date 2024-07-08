@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Afficher/Cacher des boutons</title>
+<link rel="stylesheet" href="mon site .css">
+</head>
+<body>
+
+<!-- Premier bouton pour afficher/cacher le deuxième bouton -->
+<button onclick="toggleButton('button2')">Afficher/Cacher le Deuxième bouton</button>
+
+<!-- Deuxième bouton initialement caché -->
+<button id="button2" style="display: none;">Deuxième bouton</button>
+
+<!-- Deuxième bouton pour afficher/cacher le troisième bouton -->
+<button onclick="toggleButton('button3')">Afficher/Cacher le Troisième bouton</button>
+
+<!-- Troisième bouton initialement caché -->
+<button id="button3" style="display: none;">Troisième bouton</button>
+
+<!-- Troisième bouton pour afficher/cacher le quatrième bouton -->
+<button onclick="toggleButton('button4')">Afficher/Cacher le Quatrième bouton</button>
+
+<!-- Quatrième bouton initialement caché -->
+<button id="button4" style="display: none;">Quatrième bouton</button>
+
+<!-- Quatrième bouton pour afficher/cacher le cinquième bouton -->
+<button onclick="toggleButton('button5')">Afficher/Cacher le Cinquième bouton</button>
+
+<!-- Cinquième bouton initialement caché -->
+<button id="button5" style="display: none;">Cinquième bouton</button>
+
+<!-- Script JavaScript pour afficher/cacher les boutons -->
+<script>
+    function toggleButton(buttonId) {
+        var button = document.getElementById(buttonId);
+        if (button.style.display === 'none') {
+            button.style.display = 'inline-block'; // Afficher le bouton
+        } else {
+            button.style.display = 'none'; // Cacher le bouton
+        }
+    }
+</script>
+
+</body>
+</html>

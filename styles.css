@@ -1,0 +1,90 @@
+/* Réinitialisation des marges et des paddings pour tous les éléments */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Couleur de fond générale */
+}
+
+/* Styles pour la barre d'accueil */
+header {
+    background-color: #333; /* Couleur de fond de la barre d'accueil */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo .med {
+    color: #007bff; /* Bleu pour 'Med' */
+}
+
+.logo .dades {
+    color: #ffffff; /* Blanc pour 'Dades' */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Styles pour les sections */
+.section {
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.2rem;
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+h4{
+    font: size 4cm;;
+}

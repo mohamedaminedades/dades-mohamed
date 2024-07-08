@@ -1,0 +1,108 @@
+/* Réinitialisation des marges et des paddings pour tous les éléments */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Couleur de fond générale */
+}
+
+/* Barre d'accueil */
+header {
+    background-color: #333; /* Couleur de fond de la barre d'accueil */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo .med {
+    color: #007bff; /* Bleu pour 'Med' */
+}
+
+.logo .dades {
+    color: #ffffff; /* Blanc pour 'Dades' */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Section principale avec image d'arrière-plan */
+.main-section {
+    background-image: url('images/po.jpg'); /* Chemin relatif vers votre image d'arrière-plan */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+body {
+    background-image: url('file:///C:/Users/gamep/Pictures/po.jpg'); /* Chemin absolu vers votre image d'arrière-plan */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la zone */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter */
+    text-align: center; /* Centre le contenu du body */
+    font-family: Arial, sans-serif; /* Exemple de police de caractères */
+    color: #333; /* Couleur du texte */
+    padding: 20px; /* Ajoute un peu de marge intérieure pour le contenu */
+}
+button {
+    padding: 15px 340px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
